@@ -93,7 +93,6 @@ class StockWishlistApp:
         self.root.title("RAJAT")
         self.root.geometry("1920x1080")
         self.root.configure(bg="#3498db")
-        self.root.iconbitmap('icon.ico')
 
         self.api_key = api_key
         self.api_secret = api_secret
